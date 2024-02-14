@@ -8,15 +8,21 @@ type Props = {}
 function Profile({}: Props) {
   return (
     <div className="profile">  
-        <span>
-            <img src={User} alt="user icon" />
+      <div className="user">
+        <img 
+          src={User} 
+          alt="user icon"
+          height={'14.25px'}
+        />
+        <span className='user'>
             Babybob
         </span>
-        <span>
-            <img src={Globe} alt="vector globe" />
-            DK
-            <img src={Arrow} alt="arrow down" />
-        </span>
+      </div>
+      <div className="land">
+        <img src={Globe} alt="vector globe" height={'12px'} />
+        <span>DK</span>
+        <img src={Arrow} alt="arrow down" />
+      </div>  
     </div>
   )
 }

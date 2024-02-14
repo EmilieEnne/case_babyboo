@@ -11,29 +11,95 @@ body {
 
 .topBanner {
   display: block;
+  margin-top: none;
   max-width: 1920px;
   height: 31px;
   background-color: #c4c9c1;
   text-align: center;
   font-size: 12px;
   font-weight: 700;
+  padding-top: 6px;
 }
 
-.header {
+.logo {
+  display: inline-block;
+}
+
+.navbar {
   display: block;
+  height: 77px;
+  align-content: center;
+  padding-top: 0.8%;
   padding-left: 12.5%;
   background-color: #362b24;
   font-size: 14px;
   font-weight: 700;
   line-height: 20.75px;
   color: #fff;
+  
+}
+
+.valg {
+  display: inline;
+  padding-left: 5%;
+  gap: 27px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20.75px;
+}
+
+.valg span {
+  margin-right: 27px;
+}
+
+.search {
+  display: inline;
+  border: 1px;
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 13px;
+  width: 153px;
+  height: 31px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  gap: 64px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20.75px;
+
+}
+
+.search img {
+  margin-left: 7%;
+  padding-right: 10px 
 }
 
 .profile {
+  height: 21px;
+  width: 146px;
+  display: inline-block;
+  top: 50%;
+  left: 50%; 
+  margin-left: 7%;
+  margin-top: auot;
   font-weight: 400;
   font-size: 14px;
   line-height: 20.75px;
 }
+
+.user {
+  display:inline;
+  padding: 5px;
+}
+
+.land {
+  display: inline;
+  padding: 8px;
+  margin-left: 5%;
+}
+
+
 
 .velkommen {
   padding-left: 12.5%;
@@ -41,4 +107,10 @@ body {
   font-weight: 700;
   line-height: 47.42px;
   color: #261F18;
+}
+
+.bestilcard {
+  display: block;
+  background: #F5F5F5; 
+  border-radius: 10px;
 }
