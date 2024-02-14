@@ -1,18 +1,21 @@
+import User from '../Assets/user-check 1.png';
+import Globe from '../Assets/Vector (Stroke).png';
+import Arrow from '../Assets/chevron-down 1.png';
 
 
 type Props = {}
 
 function Profile({}: Props) {
   return (
-    <div>  
+    <div className="profile">  
         <span>
-            <img src="../Assets/user-check 1.png" alt="user icon" />
+            <img src={User} alt="user icon" />
             Babybob
         </span>
         <span>
-            <img src="../Assets/Vector (Stroke).png" alt="vector globe" />
+            <img src={Globe} alt="vector globe" />
             DK
-            <img src="../Assets/chevron-down 1.png" alt="arrow down" />
+            <img src={Arrow} alt="arrow down" />
         </span>
     </div>
   )
