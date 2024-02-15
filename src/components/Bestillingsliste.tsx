@@ -5,9 +5,9 @@ type Props = {}
 
 const Bestillingsliste = (props: Props) => {
   return (
-    <div className='Bestilling'>
+    <div className='bestilling'>
         <img src={Liste} alt="Bestillingsliste vector" />
-        Bestillingsliste 
+        BESTILLINGSLISTE
         <span><a href="">Gå til bestillingslisten</a></span>  
         <div className="bestilcard">
             <div className='total'>
