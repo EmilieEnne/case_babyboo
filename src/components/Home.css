@@ -1,0 +1,11 @@
+.topBanner {
+    display: block;
+    margin-top: none;
+    max-width: 1920px;
+    height: 31px;
+    background-color: #c4c9c1;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 6px;
+  }
