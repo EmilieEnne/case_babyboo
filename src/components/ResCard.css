@@ -1,0 +1,23 @@
+
+.card {
+
+    display: inline-block;
+    margin: auto;
+    width: 180px;
+    height: 168px;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 15px;
+    background-color: #fff;
+}
+img {
+    width: 32px;
+    height: 32px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32.6px;
+    color: #261f18;
+}
