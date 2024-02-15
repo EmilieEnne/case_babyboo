@@ -1,0 +1,67 @@
+.Bestilling {
+    display: inline-block;
+    width: 673px;
+    height: 372px;
+    color: #261f18;
+}
+
+.bestilcard {
+    display: block;
+    background: #F5F5F5; 
+    border-radius: 10px;
+    height: 310px;
+    padding: 15px 7px 3px 7px;
+    color: #261f18;
+  }
+
+  .total {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .total-produkt , .total-værdi {
+    background-color: #f1ece6;
+    border-radius: 2px;
+    padding: 3px;
+  }
+
+  .total-produkt {
+    margin-right: 439px;
+  }
+
+.produkt {
+    height: 58px;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navn {
+   font-size: 16px;
+   font-weight: 500;
+   margin-right: 220px;
+   padding: 10px
+}
+
+span {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 30px;
+} 
+
+.produkt img , .produkt-dark img{
+    display: inline;
+    height: 58px;
+    width: 58px;
+}
+
+.Bestilling a {
+    color: #261f18;
+    margin-left: 350px;
+}
+
+.Bestilling img {
+    margin: 3px;
+}
