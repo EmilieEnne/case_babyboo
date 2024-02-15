@@ -1,12 +1,19 @@
 import React from 'react'
 import KampCard from './KampCard'
+import './Kampanger.css'
+import Megafon from '../Assets/Group (1).png'
 
 type Props = {}
 
 const Kampanger = (props: Props) => {
   return (
     <div className="Kampanger">
-        Kampanger
+       <div className="titel">
+        <img src={Megafon} alt="" />
+        <span>KAMPANGER</span>
+        </div>
+        <KampCard />
+        <KampCard />
         <KampCard />
     </div>
   )
