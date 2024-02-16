@@ -10,7 +10,7 @@ const Kampanger = (props: Props) => {
     <div className="Kampanger">
        <div className="titel">
         <img src={Megafon} alt="" />
-        <span>KAMPANGER</span>
+        <h2>KAMPANGER</h2>
         </div>
         <KampCard />
         <KampCard />
