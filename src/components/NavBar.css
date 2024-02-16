@@ -18,15 +18,11 @@
   
   .valg {
     display: inline;
-    padding: 2%;
     font-weight: 700;
     font-size: 14px;
     line-height: 20.75px;
   }
   
-  .valg span {
-    margin-right: 27px;
-  }
   
   .search {
     display: inline;
