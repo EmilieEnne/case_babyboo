@@ -31,10 +31,11 @@ export default function ProduktCard() {
 
   return (
     <div className="produkt">
+      
       {loading ? (
         <p>Loader...</p> ) : (
           <div className="api-data">
-            {beersList?.map((beer, index) => (
+            {beersList.map((beer, index) => (
 
             <div key={index} className="produkt-data">
               <div className="produkt-billede">

@@ -13,6 +13,7 @@
     background: #F5F5F5; 
     border-radius: 10px;
     height: 310px;
+    margin-top: 10px;
     padding: 15px 7px 3px 7px;
     color: #261f18;
   }
@@ -48,10 +49,10 @@
    padding: 10px
 }
 
-span {
+.produkt span , .produkt-dark span{
     font-size: 14px;
     font-weight: 400;
-    padding: 30px;
+    padding: 25px;
 } 
 
 .produkt img , .produkt-dark img{
@@ -69,7 +70,7 @@ span {
     margin: 10px;
 }
 
-h2 {
+.bestilling h2 {
   display: inline;
   font-size: 16px;
   font-weight: 500;
