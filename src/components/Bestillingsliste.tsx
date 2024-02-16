@@ -9,7 +9,7 @@ const Bestillingsliste = (props: Props) => {
   return (
     <div className='bestilling'>
         <img src={Liste} alt="Bestillingsliste vector" />
-        BESTILLINGSLISTE
+        <h2>BESTILLINGSLISTE</h2>
         <span><a href="">Gå til bestillingslisten</a></span>  
         <div className="bestilcard">
             <div className='total'>
