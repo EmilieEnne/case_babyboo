@@ -1,0 +1,21 @@
+.main {
+    display: block;
+    margin: 0 auto;
+}
+
+.velkommen {
+    margin: 40px 12.5%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47.42px;
+    color: #261F18;
+  }
+
+  .grid-container {
+    margin-left: 12.5%;
+  }
+  
+ .grid-child{
+    display: inline-block;
+    margin: 20px;
+ }

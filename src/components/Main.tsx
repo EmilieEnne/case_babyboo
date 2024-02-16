@@ -3,26 +3,29 @@ import Bestillingsliste from './Bestillingsliste'
 import Senesteordre from './Senesteordre'
 import Favoriteprodukter from './Favoriteprodukter'
 import Kampanger from './Kampanger'
+import './Main.css'
 
 type Props = {}
 
 const Main = (props: Props) => {
   return (
-    <div>
+    <div className='main'>
         <div className='velkommen'>
-            Velkommen Babybob A/S
+            VELKOMMEN BABYBOB A/S
         </div>
         <div className="main-wrapper">
-            <div className='Bestilling'>
-                <Bestillingsliste />
+            <div className="grid-container">
+                <div className='grid-child best'>
+                        <Bestillingsliste />
+                </div>
+                <div className="grid-child sen">
+                    <Senesteordre />
+                </div>
+                <div className="grid-child fav">
+                    <Favoriteprodukter />
+                </div>
             </div>
-            <div className="Seneste">
-                <Senesteordre />
             </div>
-            <div className="Fav">
-                <Favoriteprodukter />
-            </div>
-        </div>
         <div className="kampange-wrapper">
             <Kampanger />
         </div>
