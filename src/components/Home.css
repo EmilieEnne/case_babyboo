@@ -1,7 +1,6 @@
 .topBanner {
     display: block;
-    margin-top: none;
-    max-width: 1920px;
+    margin: 0 auto;
     height: 31px;
     background-color: #c4c9c1;
     text-align: center;

@@ -1,8 +1,10 @@
 
 import Logo from '../Assets/BABYBOO.png';
 import Søg from '../Assets/search 1.png'
-import Profile from './Profile';
 import './NavBar.css'
+import User from '../Assets/user-check 1.png';
+import Globe from '../Assets/Vector (Stroke).png';
+import Arrow from '../Assets/chevron-down 1.png';
 
 
 const Navbar = () => {   
@@ -31,8 +33,21 @@ const Navbar = () => {
             src={Søg} 
             alt="lup" />
         </div>
-        <div className="profile">
-            <Profile />
+        <div className="profile">  
+            <div className="user">
+                <img 
+                src={User} 
+                alt="user icon"
+                />
+                <span className='user'>
+                Babybob
+                </span>
+            </div>
+            <div className="land">
+            <img src={Globe} alt="vector globe"/>
+            <span>DK</span>
+            <img src={Arrow} alt="arrow down" /> 
+            </div>  
         </div>
     </nav>
   )
