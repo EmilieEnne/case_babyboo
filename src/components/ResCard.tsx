@@ -1,17 +1,23 @@
 import React from 'react'
-import Button from './ButtonGåTil'
-import Skilt from '../Assets/board 1.png'
+import Button from './Button'
 import './ResCard.css';
 
 
-type Props = {}
+interface ResCardProps {
+imageSrc: string; 
+text: string;
+altText: string;
+buttonText: string;
+buttonImage: string;
+buttonAltText: string;
+}
 
-const ResCard = (props: Props) => {
+const ResCard: React.FC<ResCardProps> = ({imageSrc, text, buttonText, buttonImage, altText, buttonAltText}) => {
   return (
     <div className='card'>
-      <img src={Skilt} alt="Borad" width={32}/>
-      <p>POS bestillinger</p>
-      <Button />
+      <img src={imageSrc} alt={altText} width={32}/>
+      <p>{text}</p>
+      <Button buttonText={buttonText} buttonImage={buttonImage} altText={buttonAltText}/>
     </div>
   )
 }
