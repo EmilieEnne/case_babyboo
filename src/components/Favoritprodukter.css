@@ -1,0 +1,40 @@
+.fav  {
+    width: 350;
+    height: 356;
+}
+
+.fav a {
+    color: #261f18;
+    float: right;
+    padding-top: 15px;
+}
+
+.favoritecard {
+    width: 350px;
+    height: 310px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.fav-produkt {
+    width: auto;
+}
+
+.fav img {
+    margin: 10px;
+}
+
+.fav h2 {
+  display: inline;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px;
+  margin-right: 70px;
+}
+
+.float-right {
+    float: right;
+    width: 46px;
+    height: 31px;
+    margin-right: 25px;
+}
