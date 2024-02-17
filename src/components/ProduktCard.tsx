@@ -1,11 +1,12 @@
 import {useState , useEffect} from 'react';
 import { getRandomBeers } from './ApiService';
+import './ProduktCard.css'
 
 
 interface Beer {
   id: number; 
   name: string; 
-  imgUrl: string;
+  image_url: string;
   tagline: string; 
 }
 
@@ -39,23 +40,25 @@ export default function ProduktCard() {
 
             <div key={index} className="produkt-data">
               <div className="produkt-billede">
-              <img src={beer.imgUrl} alt={beer.name} />
+              <img src={beer.image_url} alt={beer.name} />
               </div>
               <div className="produkt-navn">
                 {beer.name}
               </div>
+              <div className="antal-pris">
+                <span>1 STK</span>
+                <span>-12 %</span>
+                <span> 499,99 DKK</span>
+              </div>
+              {/** 
               <div className="produkt-tagline">
                 {beer.tagline}
               </div>
+            */}
             </div>
             ))}
           </div>
         )}
-        <div className="antal-pris">
-          <span>1 STK</span>
-          <span>-12 %</span>
-          <span> 499,99 DKK</span>
-        </div>
     </div>
   )
 }

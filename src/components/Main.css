@@ -12,10 +12,11 @@
   }
 
   .grid-container {
-    margin-left: 12.5%;
+    margin-left: 12%;
+    border: 40px red;
   }
   
  .grid-child{
     display: inline-block;
-    margin: 20px;
+    margin: 15px;
  }

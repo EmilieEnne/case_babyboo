@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './ButtonGåTilKamp'
 import './KampCard.css'
-import { url } from 'inspector'
+import KampBilEt from '../Assets/Rectangle 4 (1).png'
 
 type Props = {}
 

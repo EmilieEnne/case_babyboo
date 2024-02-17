@@ -10,12 +10,12 @@
     gap: 15px;
     background-color: #fff;
 }
-img {
+.card img {
     width: 32px;
     height: 32px;
 }
 
-p {
+.card p {
     font-weight: 400;
     font-size: 22px;
     line-height: 32.6px;

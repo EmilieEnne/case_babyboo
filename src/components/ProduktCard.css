@@ -1,0 +1,25 @@
+.produkt-billede {
+    display: inline;
+    height: 58px;
+    max-width: 58px;
+    padding-left: 10px
+    
+}
+
+.produkt-navn {
+    display: inline;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.produkt-tagline {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 80px;
+}
+
+.antal-pris {
+    display: inline;
+    float: right;
+}

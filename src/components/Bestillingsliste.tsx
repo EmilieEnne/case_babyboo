@@ -1,7 +1,6 @@
 import Liste from '../Assets/Vector.png'
 import './Bestillingsliste.css'
 import ProduktCard from './ProduktCard'
-import Produkt from './ProduktCard'
 
 type Props = {}
 

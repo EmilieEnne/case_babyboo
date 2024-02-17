@@ -58,15 +58,17 @@
 .produkt img , .produkt-dark img{
     display: inline;
     height: 58px;
-    width: 58px;
+    width: auto;
+    padding-left: 20px
 }
 
-.Bestilling a {
+.bestilling a {
     color: #261f18;
-    margin-left: 350px;
+    float: right;
+    padding-top: 15px;
 }
 
-.Bestilling img {
+.bestilling img {
     margin: 10px;
 }
 
@@ -77,4 +79,3 @@
   padding: 5px;
   margin-right: 70px;
 }
-

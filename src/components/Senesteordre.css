@@ -26,20 +26,21 @@
     padding: 5px;
 }
 
-strong {
+.seneste strong {
     margin-right: 30px;
 }
 
-a {
+.ordre-historie a {
     color: #261f18;
-    margin-left: 5px;
+    float: right;
+    padding-top: 15px;
   }
 
 .white {
     background-color: #fff;
 }
 
-h2 {
+ .ordre-historie h2 {
     display: inline;
     font-size: 16px;
     font-weight: 500;
