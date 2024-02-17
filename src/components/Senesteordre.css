@@ -51,3 +51,8 @@
 .ordre-historie img {
     margin: 10px;
 }
+
+.seneste a {
+    float: right;
+    margin-top: 0;
+}
