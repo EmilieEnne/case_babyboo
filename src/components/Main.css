@@ -1,10 +1,10 @@
-.main {
-    display: block;
-    margin: 0 auto;
+.main-wrapper {
+    display: flex;
+    justify-content: center;
 }
 
 .velkommen {
-    margin: 40px 12.5%;
+    margin: 40px 12%;
     font-size: 32px;
     font-weight: 700;
     line-height: 47.42px;
@@ -12,11 +12,14 @@
   }
 
   .grid-container {
-    margin-left: 12%;
-    border: 40px red;
+    display: flex; 
   }
   
  .grid-child{
-    display: inline-block;
-    margin: 15px;
+    flex: 1;
+    margin: 20px;
+ }
+
+ .kampange-wrapper {;
+    margin: 40px 11%;
  }
