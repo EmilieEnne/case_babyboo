@@ -1,14 +1,25 @@
+
+.produkt-data {
+    display: flex;
+}
+
 .produkt-billede {
-    display: inline;
-    height: 58px;
-    max-width: 58px;
-    padding-left: 10px
+    margin-right: 20px;
     
 }
 
+.text-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px;
+}
+
+.produkt-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .produkt-navn {
-    display: inline;
-    padding-left: 20px;
     font-size: 16px;
     font-weight: 500;
 }
@@ -16,10 +27,9 @@
 .produkt-tagline {
     font-size: 14px;
     font-weight: 400;
-    padding-left: 80px;
 }
 
 .antal-pris {
-    display: inline;
+    display: flex;
     float: right;
 }

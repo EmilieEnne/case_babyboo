@@ -15,17 +15,19 @@ const Bestillingsliste = (props: Props) => {
               <span className='total-produkt'>12 produkter</span>
               <span className='total-værdi'>Total: 4598,95 DKK</span>
             </div>
-            <div className='produkt'>
-                <ProduktCard />
-            </div>
-            <div className="produkt-dark">
-                <ProduktCard />
-            </div>
-            <div className='produkt'>
-                <ProduktCard />
-            </div>
-            <div className='produkt-dark'>
-                <ProduktCard />
+            <div className="produkt">
+              <div className='lys'>
+                  <ProduktCard />
+              </div>
+              <div>
+                  <ProduktCard />
+              </div>
+              <div className='lys'>
+                  <ProduktCard />
+              </div>
+              <div>
+                  <ProduktCard />
+              </div>
             </div>
         </div>    
     </div>

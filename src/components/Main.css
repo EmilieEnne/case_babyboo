@@ -1,10 +1,15 @@
+.main {
+    padding: 20px;
+}
+
 .main-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .velkommen {
-    margin: 40px 12%;
+    margin: 40px 8%;
     font-size: 32px;
     font-weight: 700;
     line-height: 47.42px;
@@ -13,13 +18,20 @@
 
   .grid-container {
     display: flex; 
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-left: -20px;
   }
   
  .grid-child{
     flex: 1;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
  }
 
- .kampange-wrapper {;
-    margin: 40px 11%;
+ .kampange-wrapper {
+    margin: 40px 8%;
  }

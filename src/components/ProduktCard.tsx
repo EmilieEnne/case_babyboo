@@ -42,19 +42,21 @@ export default function ProduktCard() {
               <div className="produkt-billede">
               <img src={beer.image_url} alt={beer.name} />
               </div>
-              <div className="produkt-navn">
-                {beer.name}
+              <div className="text-wrapper">
+                <div className="produkt-info">
+                  <div className="produkt-navn">
+                  {beer.name}
+                  </div>
+                  <div className="produkt-tagline">
+                  {beer.tagline}
+                  </div>
+                </div>
+                <div className="antal-pris">
+                  <span>1 STK</span>
+                  <span>-12 %</span>
+                  <span> 499,99 DKK</span>
+                </div>
               </div>
-              <div className="antal-pris">
-                <span>1 STK</span>
-                <span>-12 %</span>
-                <span> 499,99 DKK</span>
-              </div>
-              {/** 
-              <div className="produkt-tagline">
-                {beer.tagline}
-              </div>
-            */}
             </div>
             ))}
           </div>
