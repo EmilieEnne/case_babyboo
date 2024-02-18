@@ -1,6 +1,5 @@
 
 .card {
-
     display: inline-block;
     margin: 40px 60px;
     width: 180px;
@@ -20,4 +19,9 @@
     font-size: 22px;
     line-height: 32.6px;
     color: #261f18;
+}
+
+.button img {
+    height: 20px;
+    width: 20px;
 }

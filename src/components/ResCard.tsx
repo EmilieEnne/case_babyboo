@@ -17,7 +17,9 @@ const ResCard: React.FC<ResCardProps> = ({imageSrc, text, buttonText, buttonImag
     <div className='card'>
       <img src={imageSrc} alt={altText} width={32}/>
       <p>{text}</p>
-      <Button buttonText={buttonText} buttonImage={buttonImage} altText={buttonAltText}/>
+      <div className="button">
+        <Button buttonText={buttonText} buttonImage={buttonImage} altText={buttonAltText}/>
+      </div>
     </div>
   )
 }
